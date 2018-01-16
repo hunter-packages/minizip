@@ -14,7 +14,7 @@
 #ifndef _ZLIBIOAPI64_H
 #define _ZLIBIOAPI64_H
 
-#if (!defined(_WIN32)) && (!defined(WIN32)) && (!defined(__APPLE__))
+#if (!defined(_WIN32)) && (!defined(WIN32)) && (!defined(__APPLE__)) && (!defined(__ANDROID__))
 #  ifndef __USE_FILE_OFFSET64
 #    define __USE_FILE_OFFSET64
 #  endif
